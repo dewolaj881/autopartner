@@ -5,8 +5,9 @@ import { Transition } from "@headlessui/react";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <header className="sticky top-0 font-russo z-10 md:bg-transparent bg-gray-900">
+    <header className="sticky top-0 font-russo z-30 md:bg-transparent bg-gray-900">
       <nav className="bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 mx-auto max-w-7xl">
@@ -20,11 +21,11 @@ function Nav() {
               </div>
               <div className="hidden md:flex">
                 <div className="ml-10 flex">
-                  <div className="mr-20">
+                  <div className="mr-20 space-x-1">
                     <a
 
                       href="#"
-                      className="text-white active:static active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 shadow-xl hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white border-red-600 border-b-2 shadow-xl hover:text-white px-3 py-2 text-sm font-medium"
                     >
                       PL
                       </a>
@@ -43,7 +44,7 @@ function Nav() {
                       ENG
                       </a>
                   </div>
-                  <div class="space-x-3">
+                  <div class="space-x-2">
                     <a
                       activeClassName="active"
                       href="/map"
@@ -135,34 +136,34 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
+            <div className="md:hidden absolute w-full z-50" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 font-sans text-center bg-gray-900 border-gray-600 border-b-2">
                 <a
                   href="#"
                   className="active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 text-white hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  Mapa
+                  O firmie
                   </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  Regulamin
+                  Transport
                   </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  O nas
+                  Kariera
                   </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  Pobierz
+                  Kontakt
                   </a>
               </div>
             </div>
