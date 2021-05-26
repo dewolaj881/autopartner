@@ -5,8 +5,9 @@ import { Transition } from "@headlessui/react";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <header className="sticky top-0 font-russo">
+    <header className="sticky top-0 font-russo z-30 md:bg-transparent bg-gray-900">
       <nav className="bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 mx-auto max-w-7xl">
@@ -20,10 +21,11 @@ function Nav() {
               </div>
               <div className="hidden md:flex">
                 <div className="ml-10 flex">
-                  <div className="mr-20">
+                  <div className="mr-20 space-x-1">
                     <a
+
                       href="#"
-                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white border-red-600 border-b-2 shadow-xl hover:text-white px-3 py-2 text-sm font-medium"
                     >
                       PL
                       </a>
@@ -42,31 +44,32 @@ function Nav() {
                       ENG
                       </a>
                   </div>
-                  <div class="space-x-3">
+                  <div class="space-x-2">
                     <a
+                      activeClassName="active"
                       href="/map"
-                      className=" hover:border-red-600 hover:border-b-2 text-white hover:text-white px-3 py-2 text-sm font-medium"
+                      className="active:text-black hover:border-red-600 hover:border-b-2 shadow-2xl tracking-wider pb-2 text-white hover:text-white text-sm font-medium"
                     >
                       O firmie
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 shadow-2xl pb-2  tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
                     >
                       Transport
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 shadow-2xl tracking-wider pb-2 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
                     >
                       Kariera
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 shadow-2xl pb-2 tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
                     >
                       Kontakt
                       </a>
@@ -80,7 +83,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 h-16 w-16 inline-flex items-center p-2 justify-center rounded-md text-white hover:text-white focus:outline-none active:outline-none"
+                className="bg-transparent h-16 w-16 inline-flex items-center p-2 justify-center rounded-md text-white hover:text-white focus:outline-none active:outline-none"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -133,34 +136,34 @@ function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 font-sans text-center border-gray-600 border-b-2">
+            <div className="md:hidden absolute w-full z-50" id="mobile-menu">
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 font-sans text-center bg-gray-900 border-gray-600 border-b-2">
                 <a
                   href="#"
                   className="active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 text-white hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  Mapa
+                  O firmie
                   </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  Regulamin
+                  Transport
                   </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  O nas
+                  Kariera
                   </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
-                  Pobierz
+                  Kontakt
                   </a>
               </div>
             </div>
