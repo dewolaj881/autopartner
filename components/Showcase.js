@@ -25,7 +25,7 @@ function Showcase() {
           </button>
         </div>
         <h1 className="md:hidden block relative z-10 text-center mt-24">Szybka dostawa <br></br>jest naszym celem!</h1>
-        <img class="md:block hidden absolute right-0 top-0 ml-48 w-96" src="../img/truck1.png" alt="" />
+        <img class="md:block hidden absolute right-0 top-0 ml-48" src="../img/truck1.png" alt="" />
         <img class="md:hidden block mx-0 absolute top-0 right-0.5" src="../img/truck1.png" alt="" />
       </div>
       <div class="grid grid-cols-2">
