@@ -7,7 +7,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 font-russo z-30 md:bg-transparent bg-gray-900">
+    <header className="sticky lg:mt-24 top-0 font-russo z-30 lg:bg-transparent bg-gray-900">
       <nav className="bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 mx-auto max-w-7xl">
@@ -25,21 +25,21 @@ function Nav() {
                     <a
 
                       href="#"
-                      className="text-white border-red-600 border-b-2 shadow-xl hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white border-red-600 border-b-2 shadow-xl hover:text-white px-3 py-2 text-md font-medium"
                     >
                       PL
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       DE
                       </a>
                     <a
 
                       href="#"
-                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       ENG
                       </a>
@@ -48,28 +48,28 @@ function Nav() {
                     <a
                       activeClassName="active"
                       href="/map"
-                      className="active:text-black hover:border-red-600 hover:border-b-2 shadow-2xl tracking-wider pb-2 text-white hover:text-white text-sm font-medium"
+                      className="active:text-black hover:border-red-600 hover:border-b-2 shadow-2xl tracking-wider pb-2 text-white hover:text-white text-md font-medium"
                     >
                       O firmie
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 shadow-2xl pb-2  tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 shadow-2xl pb-2  tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       Transport
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 shadow-2xl tracking-wider pb-2 hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 shadow-2xl tracking-wider pb-2 hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       Kariera
                       </a>
 
                     <a
                       href="#"
-                      className="text-white hover:border-red-600 shadow-2xl pb-2 tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-sm font-medium"
+                      className="text-white hover:border-red-600 shadow-2xl pb-2 tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       Kontakt
                       </a>
