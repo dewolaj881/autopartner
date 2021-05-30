@@ -7,7 +7,7 @@ import { Transition } from "@headlessui/react";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="sticky xl:py-10 py-4 z-40 top-0 font-russo lg:bg-transparent bg-gray-900 active:bg-gray-900">
+    <header className="sticky xl:py-10 py-4 z-40 top-0 font-russo lg:bg-transparent bg-gray-900">
       <nav className="bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 mx-auto max-w-7xl">
