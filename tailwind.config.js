@@ -6,7 +6,15 @@ module.exports = {
     extend: {
       fontFamily: {
         'russo': ['Russo One', 'sans-serif']
-      }
+      },
+      spacing: {
+        'spacing-mobile': '500px'
+      },
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/img/volvo.jpg')",
+        'crossing': "url('/img/crossing.png')",
+       }),
+      
     },
   },
   variants: {

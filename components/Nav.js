@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" /></link>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+</link>
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <header className="sticky lg:mt-24 top-0 font-russo z-30 lg:bg-transparent bg-gray-900">
+    <header className="sticky xl:py-10 py-4 z-40 top-0 font-russo lg:bg-transparent bg-gray-900 active:bg-gray-900">
       <nav className="bg-transparent">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 mx-auto max-w-7xl">
@@ -21,7 +21,7 @@ function Nav() {
               </div>
               <div className="hidden md:flex">
                 <div className="ml-10 flex">
-                  <div className="mr-20 space-x-1">
+                  <div className="mr-16 space-x-1">
                     <a
 
                       href="#"
@@ -44,7 +44,7 @@ function Nav() {
                       ENG
                       </a>
                   </div>
-                  <div class="space-x-2">
+                  <div class="space-x-1">
                     <a
                       activeClassName="active"
                       href="/map"
