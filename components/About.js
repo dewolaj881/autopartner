@@ -8,7 +8,7 @@ function About() {
         <p className="text-justify">Dzialamy na rynku od x lat. Rozwój firmy był następstwem bliskiej i owocnej współpracy z wieloma dystrybutorami. Zawsze staramy się aby nasi klienci byl zadowoleni z czasu i jakości dostawy.</p>
       </div>
       <div>
-        <img className="md:block md:w-min w-full" src="../img/crossing.png" alt="" />
+        <img className="md:block md:h-96 xl:w-min w-full" src="../img/crossing.png" alt="" />
       </div>
       <div className=" hidden md:block mx-16 text-white mt-24">
         <h1 className="text-3xl border-b-2 border-red-600 w-32 mb-12 text-center font-russo">O firmie</h1>
