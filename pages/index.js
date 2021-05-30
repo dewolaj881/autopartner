@@ -1,6 +1,7 @@
 import Nav from '../components/Nav'
 import Showcase from '../components/Showcase'
 import About from '../components/About'
+import Transport from '../components/Transport'
 export default function Home() {
   return (
     <body className="bg-gray-900 ">
@@ -11,6 +12,7 @@ export default function Home() {
           <Nav></Nav>
           <Showcase></Showcase>
           <About></About>
+          <Transport></Transport>
         </div>
       </header>
     </body>
