@@ -2,6 +2,9 @@ import Nav from '../components/Nav'
 import Showcase from '../components/Showcase'
 import About from '../components/About'
 import Transport from '../components/Transport'
+import Form from '../components/Form'
+import Footer from '../components/Footer'
+
 export default function Home() {
   return (
     <body className="bg-gray-900 ">
@@ -13,6 +16,8 @@ export default function Home() {
           <Showcase></Showcase>
           <About></About>
           <Transport></Transport>
+          <Form></Form>
+          <Footer></Footer>
         </div>
       </header>
     </body>
