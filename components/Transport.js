@@ -11,8 +11,7 @@ function About() {
         <h1 className="text-3xl border-b-2 border-red-600 w-32 mb-12 text-center font-russo">Transport</h1>
         <p>Dzialamy na rynku od x lat. Rozwój firmy był następstwem bliskiej i owocnej współpracy z wieloma dystrybutorami. Zawsze staramy się aby nasi klienci byl zadowoleni z czasu i jakości dostawy.</p>
       </div>
-      <div>
-        <img className="md:block md:h-96 h-96 w-full" src="../img/truck2.jpg" alt="" />
+      <div className="md:block md:h-96 h-96 w-full no-repeat bg-center bg-highway">
       </div>
     </div>
   );
