@@ -25,7 +25,7 @@ export default function ContactUs() {
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input type="submit" value="Submit" />
       </form>
       {/* <form  >
         <input type="text" name="name" />
