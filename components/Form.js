@@ -19,12 +19,12 @@ export default function ContactUs() {
 
   return (
     <div>
-      <form className="contact-form" onSubmit={sendEmail}>
+      {/* <form className="contact-form" onSubmit={sendEmail}>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message" />
         <input type="submit" value="Send" />
-      </form>
+      </form> */}
     </div>
   );
 }
