@@ -10,7 +10,7 @@ export default function Footer() {
     getYear();
   }, [])
   return (
-    <div className="bg-gray-900 border-t-2 text-sm border-red-600 py-4 text-center text-white mt-16">
+    <div className="bg-gray-900 border-t-2 text-sm border-red-600 py-4 text-center text-white">
       &copy; Autopartner - {date}
       <div>Designed by NaujaScript</div>
     </div>

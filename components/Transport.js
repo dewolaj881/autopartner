@@ -4,11 +4,11 @@ function About() {
   return (
     <div className="md:grid block md:grid-cols-2 md:bg-none">
       <div className="block md:hidden mx-16 text-white my-24">
-        <h1 className="text-3xl border-b-2 border-red-600 w-32 mb-12 text-center font-russo">Transport</h1>
+        <h1 className="text-3xl border-b-2 border-red-600 w-40 mb-12 text-center font-russo">Transport</h1>
         <p className="text-justify">Dzialamy na rynku od x lat. Rozwój firmy był następstwem bliskiej i owocnej współpracy z wieloma dystrybutorami. Zawsze staramy się aby nasi klienci byl zadowoleni z czasu i jakości dostawy.</p>
       </div>
       <div className=" hidden md:block mx-16 text-white mt-24">
-        <h1 className="text-3xl border-b-2 border-red-600 w-32 mb-12 text-center font-russo">Transport</h1>
+        <h1 className="text-3xl border-b-2 border-red-600 w-40 mb-12 text-center font-russo">Transport</h1>
         <p>Dzialamy na rynku od x lat. Rozwój firmy był następstwem bliskiej i owocnej współpracy z wieloma dystrybutorami. Zawsze staramy się aby nasi klienci byl zadowoleni z czasu i jakości dostawy.</p>
       </div>
       <div className="md:block md:h-96 h-96 w-full no-repeat bg-center bg-highway">

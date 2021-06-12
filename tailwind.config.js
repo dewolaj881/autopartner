@@ -11,9 +11,10 @@ module.exports = {
         'spacing-mobile': '500px'
       },
       backgroundImage: theme => ({
-        'hero-pattern': "url('/img/volvo3.jpg')",
-        'crossing': "url('/img/crossing.png')",
+        'hero-pattern': "url('/img/volvo.jpg')",
+        'interchange': "url('/img/interchange.jpg')",
         'highway': "url('/img/highway.jpg')",
+        'road': "url('/img/road.jpg')",
       }),
 
     },
