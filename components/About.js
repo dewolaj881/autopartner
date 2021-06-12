@@ -7,8 +7,7 @@ function About() {
         <h1 className="text-3xl border-b-2 border-red-600 w-32 mb-12 text-center font-russo">O firmie</h1>
         <p className="text-justify">Dzialamy na rynku od x lat. Rozwój firmy był następstwem bliskiej i owocnej współpracy z wieloma dystrybutorami. Zawsze staramy się aby nasi klienci byl zadowoleni z czasu i jakości dostawy.</p>
       </div>
-      <div className="md:block md:h-96 h-96 w-full no-repeat bg-center bg-crossing">
-        {/* <img className="  w-full" src="../img/crossing.png" alt="" /> */}
+      <div className="md:block md:h-96 h-96 w-full bg-cover no-repeat bg-center bg-interchange">
       </div>
       <div className=" hidden md:block mx-16 text-white mt-24">
         <h1 className="text-3xl border-b-2 border-red-600 w-32 mb-12 text-center font-russo">O firmie</h1>
