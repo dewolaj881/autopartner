@@ -14,8 +14,8 @@ function Nav() {
             <div className="w-full justify-between flex items-center">
               <div className="flex-shrink-0 flex items-center text-white">
                 <img
-                  className="h-12 w-24"
-                  src="../img/logo.jpg"
+                  className="h-16 w-36"
+                  src="../img/logo2.png"
                   alt="Workflow"
                 />
               </div>
@@ -28,21 +28,21 @@ function Nav() {
                       className="text-white border-red-600 border-b-2 shadow-xl hover:text-white px-3 py-2 text-md font-medium"
                     >
                       PL
-                      </a>
+                    </a>
 
                     <a
                       href="#"
                       className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       DE
-                      </a>
+                    </a>
                     <a
 
                       href="#"
                       className="text-white hover:border-red-600 hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       ENG
-                      </a>
+                    </a>
                   </div>
                   <div class="space-x-1">
                     <a
@@ -51,28 +51,28 @@ function Nav() {
                       className="active:text-black hover:border-red-600 hover:border-b-2 shadow-2xl tracking-wider pb-2 text-white hover:text-white text-md font-medium"
                     >
                       O firmie
-                      </a>
+                    </a>
 
                     <a
                       href="#"
                       className="text-white hover:border-red-600 shadow-2xl pb-2  tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       Transport
-                      </a>
+                    </a>
 
                     <a
                       href="#"
                       className="text-white hover:border-red-600 shadow-2xl tracking-wider pb-2 hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       Kariera
-                      </a>
+                    </a>
 
                     <a
                       href="#"
                       className="text-white hover:border-red-600 shadow-2xl pb-2 tracking-wider hover:border-b-2 hover:text-white px-3 py-2 text-md font-medium"
                     >
                       Kontakt
-                      </a>
+                    </a>
                   </div>
 
                 </div>
@@ -143,28 +143,28 @@ function Nav() {
                   className="active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 text-white hover:text-white block px-3 py-2 text-base font-medium"
                 >
                   O firmie
-                  </a>
+                </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
                   Transport
-                  </a>
+                </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
                   Kariera
-                  </a>
+                </a>
 
                 <a
                   href="#"
                   className="text-white active:border-red-600 active:border-b-2 hover:border-red-600 hover:border-b-2 hover:text-white block px-3 py-2 text-base font-medium"
                 >
                   Kontakt
-                  </a>
+                </a>
               </div>
             </div>
           )}
