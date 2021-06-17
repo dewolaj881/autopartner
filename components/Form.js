@@ -33,7 +33,7 @@ export default function ContactUs() {
           <div>
             <textarea placeholder="Wiadomość" className="lg:w-96 w-72 bg-gray-100 rounded-lg p-1 my-2" name="message" />
           </div>
-          <div class="g-recaptcha" data-sitekey="6Ldm0SQbAAAAAAQ9gu6QvXKe0HY85o15keGs4l5o"></div>
+          <div class="g-recaptcha" required data-sitekey="6Ldm0SQbAAAAAAQ9gu6QvXKe0HY85o15keGs4l5o"></div>
           <input className="bg-red-500 lg:w-96 w-72 text-white cursor-pointer font-bold rounded-xl px-4 py-2" type="submit" value="Wyślij wiadomość" />
         </form>
       </div>
