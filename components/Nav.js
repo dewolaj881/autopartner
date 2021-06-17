@@ -15,7 +15,7 @@ function Nav() {
               <div className="flex-shrink-0 flex items-center text-white">
                 <img
                   className="h-16 w-36"
-                  src="../img/logo2.png"
+                  src="../img/logo.png"
                   alt="Workflow"
                 />
               </div>
