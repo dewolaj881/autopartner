@@ -4,6 +4,7 @@ import About from '../components/About'
 import Transport from '../components/Transport'
 import Form from '../components/Form'
 import Footer from '../components/Footer'
+import IndexPage from '../components/IndexPage'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
         <div>
+          <IndexPage></IndexPage>
           <Nav></Nav>
           <Showcase></Showcase>
           <About></About>
